@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  #logo {
+    width: 120px; /* Adjust the width of the logo as needed */
+    height: 120px; /* Adjust the height of the logo as needed */
+    position: absolute;
+    top: -20px;
+    left: 0;
+     /* Add some space between the logo and text */
+  }
+  h1{
+    text-align:right;
+    padding: 0 40px;
+    font-size: 35px;
+  }
+  header {
+    background-color: white;
+     /* Blue color */
+    color: #00008b;
+    padding: 0px;
+    text-align: center;
+  }
+  #h{
+  font-size: 25px;
+  padding-left: 100px;
+  font-style:normal;
+  }
+  nav {
+    margin-top:10px;
+    display: flex;
+    justify-content:flex-end;
+    background-color: #00008b; /* Slightly darker blue color */
+    padding: 5px ;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 50px;
+  }
+  
+  main {
+    padding:20px;
+  }
+  .head{
+    text-align:left;
+    padding-left:130px;
+    margin-top: 50px;
+  }
+  .full{
+    width: 100%;
+     display: table;
+  }
+  
+  .left{
+    width: 50%; 
+    display: table-cell;
+    vertical-align: top;
+  }
+  .right{
+    
+    display: table-cell;
+    display: table-cell;
+    vertical-align: top;
+  }
+  
+  .card {
+    background-color:	white;
+    border: 3px solid #00008b;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width:44%;
+    display: inline-block;
+    box-sizing: border-box;
+  margin-right:20px;
+    display:flex;
+    height:130px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    flex-wrap: wrap;
+    margin: -20px; /* Adjust the margin as needed */
+  }
+  
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
+  .card-body {
+    flex:1;
+    padding: 1rem ;
+  }
+  .card-img {
+    max-width: 50%;
+  }
+  
+  .card-body {
+    flex: 1;
+    padding: 1rem;
+  }
